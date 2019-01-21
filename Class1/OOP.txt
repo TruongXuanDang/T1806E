@@ -1,0 +1,18 @@
+﻿- Object: Là thể hiện của lớp, bao gồm các thuộc tính (properties) và phương thức  (methods);
+- Class: Là khuôn mẫu để tạo các object;
+Ví dụ: Lớp động vật có các đối tượng cụ thể là chó, mèo, gà, lợn...
+- Tính trừu tượng: Abstraction: là việc nhà lập trình hoặc người dùng chỉ khai báo những thuộc tính hay phương thức cần dùng khi khởi tạo đối tượng. Ví dụ khi tạo đối tượng người dùng, người lập trình chỉ quan tâm đến tên, tuổi, địa chỉ mail thì chỉ khai báo các thuộc tính này thay vì các thuộc tính không cần đến như chiều cao, cân nặng;
+- Tính đóng gói: Encapsulation: là việc các đối tượng được bao đóng trong các lớp hoặc các namespace để các đối tượng bên thứ 3 có thể sử dụng các đối tượng mà không làm lộ các thông tin về các phương thức và thuộc tính của đối tượng. Tính đóng gói thể hiện ở các access modifiers;
+- Tính kế thừa: Inheritance: là việc các lớp con được thừa hưởng các thuộc tính và phương thức của lớp cha. Ví dụ: lớp cha động vật có các thuộc tính là màu lông, tuổi và phương thức là kêu; lớp con là động vật có vú, kế thừa các phương thức và thuộc tính của lớp cha là động vật thì cũng sẽ có các thuộc tính cơ bản như màu lông, tuổi và phương thức là kêu;
+- Tính đa hình: Polymorphism: là việc các đối tượng có các phương thức, được thể hiện khác nhau ở các trường hợp cụ thể khác nhau, thể hiện ở các phương thức overload và override. Ví dụ: đối tượng chó và đối tượng mèo đều kế thừa từ lớp cha là động vật nên đều có phương thức kêu. Tuy nhiên chó thì kêu “gâu gâu” trong khi mèo thì kêu “meo meo”;
+
+- Methods and Properties
+
+- Java: cha đẻ lập trình hướng đối tượng; là ngôn ngữ hiện đại, biên dịch ra file byte code để có thể chạy trên mọi hệ điều hành;
+		Là ngôn ngữ đa luồng, phân tán, 
+- JVM (Java virtual machine): phần mềm để biên dịch byte code ra mã máy,
+- Java API: Package mở (giống như việc import thư viện),
+
+*Download: IntelliJIDEA, JDK, 
+
+- Method, constructor, access modifier, static
